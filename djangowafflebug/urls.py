@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from djangowafflebug.app.views import UserViewSet
+from app.views import UserViewSet
 
 
 urlpatterns = [
