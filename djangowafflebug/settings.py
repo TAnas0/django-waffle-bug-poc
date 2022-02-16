@@ -40,6 +40,8 @@ INSTALLED_APPS = [
 
     'rest_framework',
     'waffle',
+    # 'djangowafflebug',
+    'app'
 ]
 
 MIDDLEWARE = [
@@ -125,3 +127,6 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# Django Waffle config
+WAFFLE_FLAG_MODEL = 'app.Flag'
